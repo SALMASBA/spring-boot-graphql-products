@@ -1,0 +1,22 @@
+#ID! signifie que le champ id est non nul (obligatoire)
+#GraphQL garantit que chaque Produit aura toujours un id
+type Produit {
+    id: ID!
+    nom: String
+    prix: Float
+}
+
+type Query {
+    #Retourne une liste de produits (Chaque élément de la liste est de type Produit)
+    #le champ peut être null, et certains produits dans la liste peuvent aussi être null.
+    produits: [Produit]
+
+    #Retourne un seul produit identifié par id (ID! → obligatoire il faut fournir un ID)
+    #Le retour Produit peut être null si aucun produit n’existe avec cet ID.
+    produit(id: ID!): Produit
+
+    #Retourne une liste de produits dont le nom contient la chaîne q.
+    #q: String! → obligatoire
+    #Le retour est une liste de produits, qui peut être vide si aucun produit ne correspond
+    produitsParNom(q: String!): [Produit]
+}
