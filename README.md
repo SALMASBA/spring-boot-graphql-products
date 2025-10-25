@@ -37,9 +37,10 @@ Maven
 📸 Captures d’écran
 Exemple d’utilisation et résultat de requêtes via GraphiQL :
 
-![image1](./Capture d'écran 2025-10-25 123708.png)
-![image2](./Capture d'écran 2025-10-25 123743.png)
-![image"](./Capture d'écran 2025-10-25 124733.png)
+![image1](Capture%20d%27%C3%A9cran%202025-10-25%20123708.png)
+![image2](Capture%20d%27%C3%A9cran%202025-10-25%20123743.png)
+![image3](Capture%20d%27%C3%A9cran%202025-10-25%20124733.png)
+
 ## Auteur
 - 👩‍💻 Salma SBA
 
