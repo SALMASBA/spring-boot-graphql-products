@@ -12,8 +12,6 @@ graphql/ : expose les queries GraphQL (ProduitController)
 
 resources/graphql/ : schéma GraphQL schema.graphqls
 
-resources/images/ : captures d'écran de tests GraphQL dans graphiql
-
 🚀 Queries GraphQL
 produits → retourne la liste des produits
 
