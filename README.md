@@ -37,8 +37,8 @@ Maven
 📸 Captures d’écran
 Exemple d’utilisation et résultat de requêtes via GraphiQL :
 
-![graphql](./Capture d'écran 2025-10-25 123708.png)
-![Exemple API](./img2.png)
-
+![image1](./Capture d'écran 2025-10-25 123708.png)
+![image2](./Capture d'écran 2025-10-25 123743.png)
+![image"](./Capture d'écran 2025-10-25 124733.png)
 👨‍💻 Redam
 
